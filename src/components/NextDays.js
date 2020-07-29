@@ -3,7 +3,7 @@ import NextDayItem from './NextDayItem';
 
 function NextDays({ nextDays }) {
     return (
-        <center className="scroll-box py-2 my-5">
+        <center className="scroll-box py-2 my-3">
             {nextDays.map((nextDay,i) => <NextDayItem day={nextDay} key={i}/>)}
         </center>
     )
