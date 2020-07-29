@@ -1,13 +1,14 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .header-img {
   background-image: url("./images/Header.jpeg");
   width: auto;
   height: 230px;
-  left: -14.13px;
+  left: -14.13px; 
   top: -8px;
 }
 
