@@ -61,7 +61,7 @@ export default class CurrentDay extends Component {
                     <div className="col-6 col-md-3 offset-md-2 location">
                         <center className="mt-3 py-2">
                             <span className="font-dt-location mr-1">{city}, {province}</span>
-                            <FontAwesomeIcon icon={faMapMarkerAlt} />
+                            <FontAwesomeIcon className="icon-location" icon={faMapMarkerAlt} />
                         </center>
                     </div>
                 </div>

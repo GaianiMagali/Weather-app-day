@@ -49,6 +49,11 @@ body {
   font-size: 20px;
 }
 
+.icon-location{
+  padding-bottom:4px ;
+  font-size: 22px;
+}
+
 .scroll-box {
   height: 140px;
   overflow-x: scroll;
@@ -103,6 +108,10 @@ body {
   }
   .font-icon {
     font-size: 16px;
+  }
+  .icon-location{
+    padding-bottom:0 ;
+    font-size: 14px;
   }
   .scroll-box {
     height: 115px;
